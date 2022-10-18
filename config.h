@@ -1,21 +1,21 @@
 static struct Config config = {
 	/* font, separate different fonts with comma */
-	.font = "monospace:size=9,DejaVuSansMono:size=9",
+	.font = "FantasqueSansMono Nerd Font:size=9:style=bold",
 
 	/* colors */
-	.background_color = "#FFFFFF",
-	.foreground_color = "#2E3436",
-	.selbackground_color = "#3584E4",
-	.selforeground_color = "#FFFFFF",
-	.separator_color = "#CDC7C2",
-	.border_color = "#E6E6E6",
+	.background_color = "#11121d",
+	.foreground_color = "#c0caf6",
+	.selbackground_color = "#e0af68",
+	.selforeground_color = "#11121d",
+	.separator_color = "#414868",
+	.border_color = "#15161e",
 
 	/* sizes in pixels */
 	.width_pixels = 130,        /* minimum width of a menu */
-	.height_pixels = 25,        /* height of a single menu item */
-	.border_pixels = 1,         /* menu border */
-	.separator_pixels = 3,      /* space around separator */
-	.gap_pixels = 0,            /* gap between menus */
+	.height_pixels = 20,        /* height of a single menu item */
+	.border_pixels = 3,         /* menu border */
+	.separator_pixels = 5,      /* space around separator */
+	.gap_pixels = 5,            /* gap between menus */
 	.max_items = 0,             /* maximum number of items of a menu, 0 to compute based on monitor height */
 
 	/* text alignment, set to LeftAlignment, CenterAlignment or RightAlignment */

@@ -1,14 +1,9 @@
 # XMenu
 
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/63266536/114306062-ffb67000-9ab0-11eb-9a10-be30eadc68b4.gif", title="demo"/>
-</p>
-
 XMenu is a menu utility for X.
 XMenu receives a menu specification in stdin, shows a menu for the user
 to select one of the options, and outputs the option selected to stdout.
 XMenu can be controlled both via mouse and via keyboard.
-
 In order to generate a menu of applications based on .desktop entries,
 as specified by XDG, checkout [xdg-xmenu](https://github.com/OliverLew/xdg-xmenu)
 by [OliverLew](https://github.com/OliverLew).
